@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="img/adg-logo.png">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -15,6 +16,38 @@
           <h1 id="mainTitle"><img id="adgLogo" src="img/adg-logo.png">
             Discussion Forum: Approval Portal
           </h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div  id="mainPortal">
+          <div id="questionPortal" >
+            <h2>Fetch The Question Field Here</h2>
+          </div>
+
+          <div id="tagsPortal" >
+            <h3>Fetch The Tags Here</h3>
+          </div>
+
+          <div id="submitButtons">
+            <form method="POST" action="/RANDOM-XYZ">
+              <button id="approveBtn" type="submit" name="YES">
+                <h4>
+                  <span class="glyphicon glyphicon-ok">
+                    APPROVE
+                  </span>
+                </h4>
+              </button>
+
+              <button id="disapproveBtn" type="submit" name="YES">
+                <h4>
+                  <span class="glyphicon glyphicon-remove">
+                    DISAPPROVE
+                  </span>
+                </h4>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>

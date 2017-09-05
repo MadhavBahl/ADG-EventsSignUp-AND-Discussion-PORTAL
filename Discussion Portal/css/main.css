@@ -1,5 +1,8 @@
 body{
   background-color: rgb(36,51,60);
+  overflow-y: hidden;
+  color: rgb(255,255,224);
+  font-family: 'Titillium Web', sans-serif;
 }
 #adgLogo{
   display: inline;
@@ -9,4 +12,59 @@ body{
   text-align: center;
   color: rgb(255,255,224);
   padding: 1%;
+}
+#mainPortal{
+  padding: 3%;
+  text-align: center;
+  align-items: center;
+}
+#questionPortal{
+  height: 40vh;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(67,83,89);
+  border:1px solid #ffffe0;
+  -webkit-box-shadow:0px 0px 10px 2px #b0aeac ;
+  -moz-box-shadow:0px 0px 10px 2px #b0aeac ;
+  box-shadow:0px 0px 10px 1px #b0aeac ;
+  margin-bottom: 2%;
+  font-family: 'Titillium Web', sans-serif;
+}
+#tagsPortal{
+  height: 10vh;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(67,83,89);
+  border:1px solid #ffffe0;
+  -webkit-box-shadow:0px 0px 10px 2px #b0aeac ;
+  -moz-box-shadow:0px 0px 10px 2px #b0aeac ;
+  box-shadow:0px 0px 10px 1px #b0aeac ;
+  margin-bottom: 2%;
+}
+#approveBtn{
+  height: 8vh;
+  width: 40%;
+  margin-right: 2%;
+  text-align: center;
+
+  background-color: rgb(26,177,136);
+  border:1px solid rgb(26,177,136);
+
+  font-family: 'Titillium Web', sans-serif;
+}
+#disapproveBtn{
+  height: 8vh;
+  width: 40%;
+  text-align: center;
+  background-color: rgb(26,177,136);
+  border:1px solid rgb(26,177,136);
+
+  font-family: 'Titillium Web', sans-serif;
+}
+#approveBtn h4{
+    font-family: 'Titillium Web', sans-serif;
 }
