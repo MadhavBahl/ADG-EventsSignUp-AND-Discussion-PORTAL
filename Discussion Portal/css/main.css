@@ -1,6 +1,6 @@
 body{
   background-color: rgb(36,51,60);
-  overflow-y: hidden;
+  overflow-x: hidden;
   color: rgb(255,255,224);
   font-family: 'Titillium Web', sans-serif;
 }
@@ -14,16 +14,18 @@ body{
   padding: 1%;
 }
 #mainPortal{
-  padding: 3%;
+  padding-top: 3%;
   text-align: center;
   align-items: center;
 }
 #questionPortal{
-  height: 40vh;
-  width: 90%;
-  margin-left: 5%;
-  text-align: center;
-  align-items: center;
+  height: 6vh;
+  width: 55%;
+  /*margin-left: 5%;*/
+  display: inline-block;
+  padding-left: 1%;
+  text-align: left;
+  align-items:center;
   background-color: rgb(67,83,89);
   border:1px solid #ffffe0;
   -webkit-box-shadow:0px 0px 10px 2px #b0aeac ;
@@ -33,10 +35,12 @@ body{
   font-family: 'Titillium Web', sans-serif;
 }
 #tagsPortal{
-  height: 10vh;
-  width: 90%;
-  margin-left: 5%;
-  text-align: center;
+  height: 6vh;
+  width: 20%;
+  display: inline-block;
+  /*margin-left: 5%;*/
+  text-align: left;
+  padding-left: 1%;
   align-items: center;
   background-color: rgb(67,83,89);
   border:1px solid #ffffe0;
@@ -45,21 +49,27 @@ body{
   box-shadow:0px 0px 10px 1px #b0aeac ;
   margin-bottom: 2%;
 }
-#approveBtn{
-  height: 8vh;
-  width: 40%;
-  margin-right: 2%;
+/*#submitButtons{
+  display: inline-block;
+}*/
+#formMain{
+  display: inline-block;
   text-align: center;
-
+}
+#approveBtn{
+  height: 6vh;
+  width: 10%;
+  text-align: center;
   background-color: rgb(26,177,136);
   border:1px solid rgb(26,177,136);
 
   font-family: 'Titillium Web', sans-serif;
 }
 #disapproveBtn{
-  height: 8vh;
-  width: 40%;
+  height: 6vh;
+  width: 10%;
   text-align: center;
+
   background-color: rgb(26,177,136);
   border:1px solid rgb(26,177,136);
 
