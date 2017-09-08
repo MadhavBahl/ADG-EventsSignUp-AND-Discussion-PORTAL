@@ -30,3 +30,10 @@ function errData(err){
   var errMsg = `Unable to fetch data!! ERROR: ${err}`;
   dispErr.innerHTML = errMsg;
 }
+
+function approved(){
+  database.ref('Forum/TEST/verified').set('Yes');
+}
+function disapproved(){
+  database.ref('Forum/TEST/verified').set('No');
+}
