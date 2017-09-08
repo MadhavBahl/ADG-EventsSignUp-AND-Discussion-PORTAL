@@ -19,6 +19,7 @@ var nameTEST = document.getElementById('nameTEST');
 var flag = 0;
 var approveBtn = document.getElementById('approveBtn');
 var disapproveBtn = document.getElementById('disapproveBtn');
+var showQues = document.getElementById('showQues');
 
 var dispErr = document.getElementById('dispErr');
 function getData(data){
@@ -39,9 +40,10 @@ function getData(data){
       // },1000);
 
       flag = 0;
-      if(data.val()[i].verified === 'Yes')
+      if(data.val()[i].verified === 'Yes' || data.val()[i].verified === 'No')
         flag=1;
       else{
+        showQues.style.display = 'block';
         question.innerHTML = data.val()[i].question;
         nameTEST.innerHTML = data.val()[i].name;
         var flagFin=0;
