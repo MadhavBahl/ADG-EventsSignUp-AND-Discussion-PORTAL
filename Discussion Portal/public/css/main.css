@@ -78,3 +78,6 @@ body{
 #approveBtn h4{
     font-family: 'Titillium Web', sans-serif;
 }
+#dispErr{
+  display: none;
+}
