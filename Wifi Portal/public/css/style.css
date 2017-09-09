@@ -176,3 +176,11 @@ textarea {
   margin-top: -20px;
   text-align: right;
 }
+
+#dispData{
+  display: none;
+
+}
+#dispData h1{
+  color: black;
+}
