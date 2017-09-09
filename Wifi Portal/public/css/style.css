@@ -64,7 +64,7 @@ a:hover {
 }
 
 .tab-content > div:last-child {
-  display: none;
+  display: block;
 }
 
 h1 {
@@ -178,6 +178,7 @@ textarea {
 }
 
 #dispData{
+  margin-top: 20vh;
   display: none;
 
 }
