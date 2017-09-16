@@ -1,13 +1,12 @@
 
 // Initialize Firebase
-// Initialize Firebase
   var config = {
-    apiKey: "AIzaSyCGWZaO0w87ASD2B7yZhtAoOGb8mhlwUlc",
-    authDomain: "iosfusion-21c51.firebaseapp.com",
-    databaseURL: "https://iosfusion-21c51.firebaseio.com",
-    projectId: "iosfusion-21c51",
-    storageBucket: "iosfusion-21c51.appspot.com",
-    messagingSenderId: "342302240126"
+    apiKey: "AIzaSyBKf8_zTarqgJdZJr8TIdiBNysXoWxVgq8",
+    authDomain: "adg-events.firebaseapp.com",
+    databaseURL: "https://adg-events.firebaseio.com",
+    projectId: "adg-events",
+    storageBucket: "adg-events.appspot.com",
+    messagingSenderId: "719176182149"
   };
   firebase.initializeApp(config);
 // console.log(firebase);

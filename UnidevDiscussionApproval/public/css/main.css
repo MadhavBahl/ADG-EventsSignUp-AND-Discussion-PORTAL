@@ -1,0 +1,87 @@
+body{
+  background-color: rgb(36,51,60);
+  overflow-x: hidden;
+  color: rgb(255,255,224);
+  font-family: 'Titillium Web', sans-serif;
+}
+#adgLogo{
+  display: inline;
+  width: 50px;
+}
+#titleDiv{
+  text-align: center;
+  color: rgb(255,255,224);
+  padding: 1%;
+}
+#mainPortal{
+  padding-top: 3%;
+  text-align: center;
+  align-items: center;
+}
+#showQues{
+  display: none;
+}
+#questionPortal{
+  margin-top: 10vh;
+  height: 20vh;
+  width: 80%;
+  /*margin-left: 5%;*/
+  display: inline-block;
+  padding-left: 1%;
+  text-align: left;
+  align-items:center;
+  background-color: rgb(67,83,89);
+  border:1px solid #ffffe0;
+  -webkit-box-shadow:0px 0px 10px 2px #b0aeac ;
+  -moz-box-shadow:0px 0px 10px 2px #b0aeac ;
+  box-shadow:0px 0px 10px 1px #b0aeac ;
+  margin-bottom: 2%;
+  font-family: 'Titillium Web', sans-serif;
+}
+#tagsPortal{
+  height: 6vh;
+  width: 80%;
+  display: inline-block;
+  /*margin-left: 5%;*/
+  text-align: left;
+  padding-left: 1%;
+  align-items: center;
+  background-color: rgb(67,83,89);
+  border:1px solid #ffffe0;
+  -webkit-box-shadow:0px 0px 10px 2px #b0aeac ;
+  -moz-box-shadow:0px 0px 10px 2px #b0aeac ;
+  box-shadow:0px 0px 10px 1px #b0aeac ;
+  margin-bottom: 2%;
+}
+/*#submitButtons{
+  display: inline-block;
+}*/
+#formMain{
+  display: inline-block;
+  text-align: center;
+}
+#approveBtn{
+  height: 6vh;
+  width: 10%;
+  text-align: center;
+  background-color: rgb(26,177,136);
+  border:1px solid rgb(26,177,136);
+
+  font-family: 'Titillium Web', sans-serif;
+}
+#disapproveBtn{
+  height: 6vh;
+  width: 10%;
+  text-align: center;
+
+  background-color: rgb(26,177,136);
+  border:1px solid rgb(26,177,136);
+
+  font-family: 'Titillium Web', sans-serif;
+}
+#approveBtn h4{
+    font-family: 'Titillium Web', sans-serif;
+}
+#dispErr{
+  display: none;
+}
